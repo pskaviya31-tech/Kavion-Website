@@ -1,0 +1,542 @@
+/* ======================================= */
+/* =========== MEDIA QUERIES ============= */
+/* ======================================= */
+
+/* --- Tablet / Smaller Laptop Styles (max-width: 1200px) --- */
+@media (max-width: 1200px)  {
+    /* --- General Reset & Flow --- */
+    body, html { 
+        overflow-x: hidden !important; 
+        width: 100% !important;
+    }
+
+    /* Row 1: Centered Navigation placeholder */
+    .row1 {
+        position: relative !important;
+        width: 100% !important;
+        padding: 20px 30px !important;
+        margin: 0 !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .col.navitem { display: none !important; } 
+    
+    /* Hero Section: Centered text overlay on tablet */
+    .image {
+        position: relative !important;
+        width: 100% !important;
+        height: 500px !important;
+        display: none; 
+    }
+    .logo{
+        margin-left:10%;
+    }
+    .row2, .row3, .row4 {
+        position: absolute !important;
+        top: 150px !important;
+        left: 0 !important; 
+        padding: 0 5% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important; 
+    }
+    .row3 { top: 210px !important; }
+    .row4 { top: 270px !important; }
+
+    /* --- COLOR ADJUSTMENTS for Tablet --- */
+    .hero1, .hero2, .hero3, .hero5, .hero6 {
+        color: #333333 !important;
+    }
+
+    /* --- First Image Section --- */
+    .kavion1stimage img {
+        position: relative !important;
+        width: 80% !important;
+        display: block !important;
+        margin: 30px auto !important; 
+    }
+
+    /* --- Technologies Section --- */
+    .techicons {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 20px !important;
+    }
+    .techicons img {
+        width: 70px !important;
+        margin: 0 !important;
+        position: static !important;
+    }
+    .techpara1, .techpara2 { 
+        width: 100% !important; 
+        text-align: center !important; 
+    }
+
+    /* --- About/Third Sheet Section --- */
+    .Thirdsheet {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 50px 5% !important;
+    }
+    .blissimage1 {
+        position: relative !important;
+        margin: 0 auto 40px auto !important;
+        width: 90% !important;
+        max-width: 500px !important;
+    }
+    h3, .para1, .question, .answer {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important; 
+        width: 100% !important;
+    }
+    .viewbutton { 
+        margin: 20px auto 0 auto !important; 
+        display: block !important;
+        max-width: 300px !important;
+    }
+
+    /* --- Services Section --- */
+    .kavionimg { display: none !important; }
+    .heading1, .heading2, .heading3 {
+        position: relative !important;
+        margin: 0 auto 10px auto !important;
+        width: 90% !important;
+        text-align: center !important; 
+    }
+    .designbox {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 15px !important; 
+        margin-top: 40px !important;
+        padding: 0 10px !important;
+    }
+    .uxbg, .designbg1, .designbg2, .designbg3 {
+        position: relative !important;
+        margin: 10px !important;
+        width: 47% !important; 
+        min-width: 320px !important;
+    }
+    .button1 { 
+        position: relative !important;
+        margin: 50px auto 0 auto !important; 
+        display: block !important;
+    }
+
+    /* --- Why We Are The Best Section (Counters) --- */
+    .question1, .ans2 {
+        position: relative !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+        text-align: center !important; 
+    }
+    .blissimage2 {
+        position: relative !important;
+        margin: 40px auto !important; 
+        width: 80% !important;
+    }
+    .smile, .web {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 10px !important; 
+        margin-left: 0 !important;
+    }
+    .bg1, .bg2, .bg3, .bg4 {
+        position: relative !important;
+        margin: 5px !important; 
+        width: 40% !important; 
+        min-width: 180px !important; 
+        padding: 15px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        min-height: 150px !important; 
+        padding-bottom: 20px !important;
+    }
+    .bg1 p, .bg2 p, .bg3 p, .bg4 p {
+        position: relative !important;
+        z-index: 2 !important;
+        margin-top: 10px !important; 
+        color: #333333 !important; 
+    }
+    .question1{
+        font-size:20px;
+        margin-top:0px !important;
+        
+    }
+    /* Hire Section: Center Content */
+    .whyquestion {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+       padding-left: 5px !important;
+       padding-right: 5px !important;
+        margin-top: 0% !important;
+    }
+    .question2, .ans3, .ans4 { 
+        width: 100% !important; 
+        margin-left: 0 !important;
+        text-align: center !important; 
+    }
+    .button {
+        position: relative !important;
+        margin: 20px auto 0 auto !important; 
+        width: 300px !important;
+        display: block !important;
+    }
+
+    /* --- Footer --- */
+    .footer-section > div {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        padding: 50px 30px !important;
+    }
+    .footerimage {
+        display: none !important;
+    }
+    .about, .links, .ourservices, .reachus, .aboutpara,
+    .footerdesign, .linkdetails, .servicesdetails, .reachusdetails, .map {
+        position: relative !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        width: 47% !important; 
+        min-width: 200px !important;
+        text-align: center !important; 
+    }
+    .footerdesign { align-items: center !important; }
+}
+
+
+
+
+
+/* ------------------------------------------------------------- */
+/* --- Mobile Styles (max-width: 768px) --- */
+@media (max-width: 768px)  {
+    
+    /* === 1. AGGRESSIVE GLOBAL OVERFLOW FIX (ENSURES NO HORIZONTAL SCROLL) === */
+    body, html {
+        overflow-x: hidden !important; 
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+    .logo{
+        margin-right:60%!important;
+    }
+    .hero5{
+       margin-left:0% !important;
+       text-shadow: none !important;
+       word-wrap:break-word!important; 
+       width:100% !important;
+      
+
+    }
+    .pink,.orange,.bule,.purple{
+        margin-left:20px!important;
+    } 
+    
+    .tech_container{
+        width: 100%!important;
+        margin-top:-95rem!important;
+    }  
+   
+    .container_best{
+        margin-top:-60%!important;
+    }   
+    .whyquestion{
+        margin-top:-65rem!important;
+    } 
+    .detailsaboutus{
+        margin-top:-50%!important;
+    }
+    .Thirdsheet{
+        margin-top:-50%!important;
+    }
+    /* === 2. AGGRESSIVE IMAGE & BACKGROUND REMOVAL/RESIZE === */
+
+    /* Ensure NO images can exceed the viewport */
+    
+    /* Services Background & Footer Background: HIDE & COLLAPSE (Zero Gaps) */
+    .kavionimg, .footerimage { 
+        display: none !important; 
+        height: 0 !important;
+        width: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    } 
+    /* hide an <img> inside a wrapper */
+.frontimage {
+  display: none !important;
+  
+}
+
+    /* Remove background image from footer section as an extra measure */
+    .footer-section {
+        background-image: none !important; 
+    }
+    .hero1{
+        color: #cb6be6!important;
+    }
+    /* Hero Image: SHOW & RESIZE */
+    .image { 
+        display: block !important; 
+        position: relative !important; 
+        width: 100% !important;
+        height: 300px !important; 
+        margin: 0 !important;
+        padding: 0 !important;
+        object-fit: cover !important; 
+    } 
+    
+    /* Zero Gap Resets for Containers */
+    #ourservices {
+        padding: 30px 0 !important; 
+        margin: 0 !important;
+        min-height: auto !important;
+        height: auto !important;
+    }
+    .footer-section {
+        padding: 0 !important;
+        margin: 0 !important;
+        min-height: auto !important;
+        height: auto !important;
+    }
+    
+    /* Hero Text Positioning (now flows below the resized .image) */
+    .row2, .row3, .row4 {
+        position: relative !important; 
+        top: auto !important; 
+        left: auto !important;
+        margin: 10px auto !important; 
+        padding: 0 15px !important;
+        width: 100% !important;
+        text-align: center !important; 
+        height: auto !important;
+        min-height: auto !important;
+    }
+    
+    /* === 3. ALIGNMENT & COLOR FIXES === */
+
+    /* Global Text Centering */
+    h1, h2, h3, h4, h5, h6, p, span, a, div {
+        text-align: center !important;
+    }
+
+    /* Text Color Fix */
+    .hero1, .hero2, .hero3, .hero6,
+    .techpara1, .techpara2, h3, .para1, .question, .answer, 
+    .heading1, .heading2, .heading3, .question1, .ans2,
+    .question2, .ans3, .ans4 {
+        color: #333333 !important; 
+        text-shadow: none !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    /* Footer Text Color Fix */
+    .footer-section h4 {
+        color: #555555 !important; 
+    }
+    .footer-section p, .aboutpara, .linkdetails, .servicesdetails, .reachusdetails, .footerdesign a {
+        color: #888888 !important; 
+    }
+
+    /* === 4. SPECIFIC SECTION FIXES (SIZE & LAYERING) === */
+
+    /* Hero Section (Nav and Logo) */
+    .row1 {
+        display: flex !important;
+        flex-direction: row !important; 
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 20px 15px !important;
+        width: 100% !important;
+    }
+
+    
+
+    /* Technologies Section: Increased Size */
+    .techicons { 
+        flex-direction: column !important; 
+        align-items: center !important; 
+        gap: 20px !important; 
+    }
+    .techicons img { 
+        width: 300px !important; 
+        height: auto !important;
+        margin: 5px auto !important; 
+    }
+
+    /* First Image Section */
+    .kavion1stimage { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+    .kavion1stimage img { width: 90% !important; margin: 20px auto !important; }
+
+    /* About Section */
+    .viewbutton { 
+        margin: 15px auto 0 auto !important; 
+        width: 90% !important;
+    }
+
+    /* Service Boxes - PERFECT CENTERING FIX */
+    .designbox {
+        flex-direction: column !important;
+        align-items: center !important; 
+        gap: 20px !important; /* Added gap between service boxes for spacing */
+    }
+    .uxbg, .designbg1, .designbg2, .designbg3 {
+        width: 90% !important;
+        max-width: 350px !important;
+        margin: 10px auto !important; /* Horizontal Centering for the box itself */
+        height: auto !important;
+        min-height: 280px !important; /* Ensures space for vertical centering */
+        padding: 25px 20px !important; 
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important; /* Centers contents horizontally (icon, title, paragraph) */
+        justify-content: center !important; /* Centers contents vertically (icon, title, paragraph) */
+        box-sizing: border-box !important;
+    }
+
+    /* === NEW: Centering for the icon container/background circle === */
+    /* Assuming your icon and its background are within a div like '.icon-circle' or similar */
+    .icon-circle, .icon-container { /* Adjust this selector to match your HTML */
+        display: flex !important;
+        align-items: center !important; /* Centers the image vertically inside the circle */
+        justify-content: center !important; /* Centers the image horizontally inside the circle */
+        margin-bottom: 15px !important; /* Space between the icon/circle and the title below */
+        width: 80px !important; /* Ensure consistent size for the background circle */
+        height: 80px !important;
+        border-radius: 50% !important; /* Makes it a perfect circle */
+        /* Background colors should be defined separately in your main CSS for each circle */
+        /* Example: background-color: #fce4ec; for pink */
+        /* Example: background-color: #e0f2f1; for light blue */
+    }
+
+    /* Centering for the icon image itself within its container */
+    .icon-circle img, .icon-container img { /* Adjust this selector to match your HTML */
+        display: block !important;
+        width: 40px !important; /* Size of the actual icon */
+        height: 40px !important;
+        object-fit: contain !important; /* Ensures the icon scales without cropping */
+        margin: 0 !important; /* Reset any default margins on the image */
+        margin-left:20px;
+    }
+
+    /* Ensure internal text elements are centered within the flex item */
+    .uxbg *, .designbg1 *, .designbg2 *, .designbg3 * {
+        text-align: center !important;
+        margin-top: 5px !important; 
+        margin-bottom: 5px !important; 
+       
+    }
+    /* Special fix for main title if it's an H tag, giving it slightly more space */
+    .uxbg h4, .designbg1 h4, .designbg2 h4, .designbg3 h4,
+    .uxbg h3, .designbg1 h3, .designbg2 h3, .designbg3 h3 {
+        margin-top: 10px !important; 
+        margin-bottom: 10px !important; 
+    }
+
+
+    /* Counters: Laying Fix & Consistency */
+    .smile, .web {
+        flex-direction: column !important;
+        align-items: center !important; 
+        gap: 15px !important; 
+        margin: 20px 0 !important;
+    }
+    
+    .bg1 img, .bg2 img, .bg3 img, .bg4 img {
+        position: relative !important;
+        z-index: 2 !important; 
+        margin-bottom: 10px !important; 
+        width: 80px !important; 
+        height: auto !important;
+    }
+    .bg1 h4, .bg2 h4, .bg3 h4, .bg4 h4 { 
+        font-size: 2.2em !important; 
+        font-weight: 700 !important; 
+        color: #333333 !important;
+        margin: 0 0 5px 0 !important; 
+        line-height: 1.2 !important;
+    }
+    .bg1 p, .bg2 p, .bg3 p, .bg4 p { 
+        position: relative !important;
+        z-index: 2 !important; 
+        margin-top: 0 !important; 
+        margin-bottom: 0 !important;
+        font-size: 1.1em !important; 
+        color: #555555 !important; 
+        text-align: center !important; 
+        line-height: 1.4 !important;
+    }
+    .bg1, .bg2, .bg3, .bg4 {
+    
+    height: 25vh;
+    /* Remove padding-bottom: 20% */
+    padding-bottom: 0 !important; 
+}
+    
+    /* Hire Section */
+    .whyquestion { align-items: center !important; }
+    .button { margin: 20px auto 0 auto !important; width: 90% !important; }
+
+    /* Footer: Link Centering */
+    .footer-section > div {
+        flex-direction: column !important;
+        align-items: center !important; 
+        padding: 30px 15px !important;
+    }
+    .about, .links, .ourservices, .reachus {
+        width: 100% !important;
+        margin: 0 0 15px 0 !important;
+    }
+    /* Link Names Center Aligned */
+    .linkdetails {
+        width: 100% !important;
+        text-align: center !important;
+        margin: 5px 0 !important; 
+        
+    }
+    .aboutpara {
+        width: 100% !important;
+        text-align: center !important;
+        margin: 5px 0 0 !important; 
+        
+    }
+    .servicesdetails {
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 5px!important; /* FIXED: Centered links properly */
+        margin-left: 5rem!important;
+    }
+    .reachusdetails {
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 5px!important; /* FIXED: Centered links properly */
+        margin-left:5rem!important;
+    }
+    .footerdesign{
+        margin-bottom: 30px !important;
+    }
+    .map {
+        width: 100% !important;
+        margin: 45px 0 0 0 !important;
+        text-align: center !important;
+        
+    }
+    .map iframe {
+        display: block !important;
+        margin: 0 auto !important;
+        margin-left:75px !important;
+        width: 100% !important;
+    }
+
+} 
