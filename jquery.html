@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text, HTML, and Value Example</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#getText").click(function(){
+        alert($("#demo").text());
+      });
+
+      $("#setText").click(function(){
+        $("#demo").text("🌸 Text changed using .text()");
+      });
+
+      $("#setHTML").click(function(){
+        $("#demo").html("<b>✨ This is bold HTML added using .html()</b>");
+      });
+
+      $("#getValue").click(function(){
+        alert("You typed: " + $("#nameBox").val());
+      });
+    });
+  </script>
+</head>
+<body>
+  <p id="demo">Hello <b>Ena</b>! Welcome to jQuery Manipulation.</p>
+  <input type="text" id="nameBox" placeholder="Type something..."><br><br>
+
+  <button id="getText">Get Text</button>
+  <button id="setText">Set Text</button>
+  <button id="setHTML">Set HTML</button>
+  <button id="getValue">Get Input Value</button>
+</body>
+</html>
